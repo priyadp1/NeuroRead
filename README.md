@@ -55,9 +55,10 @@ It uses **Gemini Nano**, Chrome’s on-device AI model, through built-in APIs su
    - Select the `NeurodiverseReaderLite` folder
 
 5. **Test on any article page**, for example:  
-   [The Verge](https://www.theverge.com/2025/2/18/google-chrome-gemini-nano-ai-integration)
+   https://www.thedailybeast.com/chilling-new-york-times-cover-goes-viral-after-trump-confirms-its-worst-fears/
 
-6. **Click the extension icon**, then choose:  
+
+7. **Click the extension icon**, then choose:  
    - *Summarize This Page*  
    - *Simplify Based on Reading Level*  
    - *Check AI Availability*
@@ -96,17 +97,6 @@ NeurodiverseReaderLite/
 ├── icons/
 └── README.md
 ```
-
----
-
-## Recommended Test Articles
-
-Use these cleanly structured web pages for accurate summarization:
-
-- [Google Chrome Blog – Built-in AI](https://blog.google/products/chrome/ai-built-in/)  
-- [The Verge – Gemini Nano Integration](https://www.theverge.com/2025/2/18/google-chrome-gemini-nano-ai-integration)  
-- [TechCrunch – On-device AI Update](https://techcrunch.com/2025/01/05/google-gemini-nano-update-ai-on-device/)  
-- [Accessible AI – Helping Neurodiverse Learners](https://medium.com/@accessibleai/how-ai-can-help-neurodiverse-learners-2025-edition-3e61b4d32a34)
 
 ---
 
