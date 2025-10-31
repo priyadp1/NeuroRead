@@ -94,7 +94,7 @@ NeurodiverseReaderLite/
 ├── manifest.json
 ├── popup.html
 ├── popup.js
-├── icons/
+├── icon.png
 └── README.md
 ```
 
