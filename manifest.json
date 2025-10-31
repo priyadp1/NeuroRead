@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Neurodiverse Reader Lite",
+    "version": "1.0",
+    "description": "Summarize web pages offline with Chrome’s built-in Gemini Nano AI to support neurodiverse and ESL readers.",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "icon.png"
+        }
+    },
+    "icons": {
+        "128": "icon.png"
+    }
+}

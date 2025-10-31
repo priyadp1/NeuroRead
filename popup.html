@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        width: 320px;
+        padding: 12px;
+        transition: border-top 0.3s ease;
+      }
+      h3 {
+        margin-top: 0;
+        color: #202124;
+        font-size: 16px;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        background-color: #1a73e8;
+        border: none;
+        border-radius: 6px;
+        color: white;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #1669c1;
+      }
+      #simplifyBtn {
+        background-color: #fbbc05;
+      }
+      #simplifyBtn:hover {
+        background-color: #e2aa04;
+      }
+      #checkBtn {
+        background-color: #9c27b0;
+      }
+      #checkBtn:hover {
+        background-color: #7b1fa2;
+      }
+      #copyBtn {
+        display: none;
+        background-color: #34a853;
+      }
+      #copyBtn:hover {
+        background-color: #2b8a41;
+      }
+      #output {
+        white-space: pre-wrap;
+        font-size: 14px;
+        color: #202124;
+        background-color: #f8f9fa;
+        border-radius: 6px;
+        padding: 10px;
+        border: 1px solid #dadce0;
+        max-height: 350px;
+        overflow-y: auto;
+        opacity: 0;
+        transition: opacity 0.25s ease;
+      }
+      #output.visible {
+        opacity: 1;
+      }
+      #output strong {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 15px;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 4px;
+      }
+      #readingTime {
+        font-size: 12px;
+        color: #5f6368;
+        margin-top: 6px;
+        text-align: right;
+      }
+      p.credit {
+        text-align: center;
+        font-size: 12px;
+        color: #5f6368;
+        margin-top: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Neurodiverse Reader Lite</h3>
+
+    <button id="summarize">Summarize This Page</button>
+
+    <label for="readingLevel" style="font-size:13px; color:#202124; display:block; margin-bottom:6px;">
+      Reading Level:
+    </label>
+    <select id="readingLevel" style="width:100%; padding:8px; margin-bottom:12px; border-radius:6px; border:1px solid #dadce0;">
+      <option value="simple">Basic</option>
+      <option value="balanced" selected>Balanced</option>
+      <option value="detailed">Detailed</option>
+    </select>
+
+    <button id="simplifyBtn">Simplify Based on Reading Level</button>
+    <button id="checkBtn">Check AI Availability</button>
+    <button id="copyBtn">Copy Summary</button>
+
+    <div id="output"></div>
+    <div id="readingTime"></div>
+    <p class="credit">Built by Prisha Priyadarshini</p>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
