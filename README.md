@@ -1,7 +1,7 @@
 # Neurodiverse Reader Lite
 ### Chrome Built-in AI Challenge 2025 Submission
 
-**Neurodiverse Reader Lite** is a privacy-focused Chrome extension that helps users—especially those with neurodiverse reading patterns (such as ADHD, dyslexia, or cognitive fatigue)—comprehend web articles more easily.  
+**Neurodiverse Reader Lite** is a privacy-focused Chrome extension that helps users, especially those with neurodiverse reading patterns (such as ADHD, dyslexia, or cognitive fatigue), comprehend web articles more easily.  
 It uses **Gemini Nano**, Chrome’s on-device AI model, through built-in APIs such as the **Summarizer** and **Rewriter**, to summarize or simplify text locally. No data ever leaves the device.
 
 ---
