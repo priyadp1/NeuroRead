@@ -1,7 +1,7 @@
 # NeuroRead
 ### Chrome Built-in AI Challenge 2025 Submission
 
-**Neurodiverse Reader Lite** is a privacy-focused Chrome extension that helps users, especially those with neurodiverse reading patterns (such as ADHD, dyslexia, or cognitive fatigue), comprehend web articles more easily.  
+**NeuroRead** is a privacy-focused Chrome extension that helps users, especially those with neurodiverse reading patterns (such as ADHD, dyslexia, or cognitive fatigue), comprehend web articles more easily.  
 It uses **Gemini Nano**, Chrome’s on-device AI model, through built-in APIs such as the **Summarizer** and **Rewriter**, to summarize or simplify text locally. No data ever leaves the device.
 
 ---
@@ -36,8 +36,8 @@ It uses **Gemini Nano**, Chrome’s on-device AI model, through built-in APIs su
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/<your-username>/NeurodiverseReaderLite.git
-   cd NeurodiverseReaderLite
+   git clone https://github.com/<your-username>/NeuroRead.git
+   cd NeuroRead
    ```
 
 2. **Open Chrome Canary (v144+)** or a Chrome version that supports Gemini Nano.
@@ -89,7 +89,7 @@ It uses **Gemini Nano**, Chrome’s on-device AI model, through built-in APIs su
 ## Project Structure
 
 ```plaintext
-NeurodiverseReaderLite/
+NeuroRead/
 │
 ├── manifest.json
 ├── popup.html
