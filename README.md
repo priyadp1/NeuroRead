@@ -1,4 +1,4 @@
-# Neurodiverse Reader Lite
+# NeuroRead
 ### Chrome Built-in AI Challenge 2025 Submission
 
 **Neurodiverse Reader Lite** is a privacy-focused Chrome extension that helps users, especially those with neurodiverse reading patterns (such as ADHD, dyslexia, or cognitive fatigue), comprehend web articles more easily.  
